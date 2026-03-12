@@ -27,3 +27,9 @@ Thumbs.db
 #Other
 .DS_Store
 Thumbs.db
+
+# Allure Reports
+allure-results/
+allure-report/
+cypress/screenshots/
+cypress/videos/
