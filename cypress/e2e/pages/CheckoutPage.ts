@@ -6,8 +6,8 @@ export class CheckoutPage extends BasePage {
     get postalCodeInput() { return cy.get('[data-test="postalCode"]'); }
     get continueButton() { return cy.get('[data-test="continue"]'); }
     get finishButton() { return cy.get('[data-test="finish"]'); }
-    get completedOrderHeader() { return cy.get('[data-test="complete-header"]')}
-    get completedOrderText() { return cy.get('[data-test="complete-text"]')}
+    get completedOrderHeader() { return '[data-test="complete-header"]'}
+    get completedOrderText() { return '[data-test="complete-text"]'}
 
     fillCheckoutForm(firstName: string, lastName: string, postalCode: string):void{
         this.firstNameInput.type(firstName);

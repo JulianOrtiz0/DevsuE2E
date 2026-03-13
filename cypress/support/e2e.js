@@ -1,4 +1,5 @@
 
+import '../e2e/commands/commands';
 require('@shelex/cypress-allure-plugin');
 
 // Opcional: Configuración adicional de Allure
